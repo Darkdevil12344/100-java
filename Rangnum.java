@@ -1,11 +1,13 @@
 import java.util.Scanner;
-public class Sofnum {
+public class Rangnum {
    public static void main(String[] args) {
    Scanner sc = new Scanner(System.in);
-   System.out.println("enter the num");
-   int num = sc.nextInt();
+   System.out.println("enter start the num");
+   int st = sc.nextInt();
+    System.out.println("enter end the num");
+   int ed = sc.nextInt();
 int sum=0;
-   for (int i=1;i<=num;i++) {
+   for (int i=st;i<=ed;i++) {
     sum=sum+i;
 
    }
@@ -14,4 +16,3 @@ int sum=0;
 }
 
          }
-         
