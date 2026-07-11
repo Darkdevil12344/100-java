@@ -14,5 +14,6 @@ int sum=0;
    System.out.println("sum is " + sum);
    sc.close();
 }
+   
 
          }
