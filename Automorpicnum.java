@@ -4,7 +4,7 @@ public class Automorpicnum {
    Scanner sc = new Scanner(System.in);
    System.out.println("enter the num to find");
    int num = sc.nextInt(); 
-   int End = 0 ,place=1;
+   int End  ,place=1;
    int alt =num;
    int fin =num*num;
    

@@ -21,5 +21,6 @@ if(sum==2){
 }
 }
 System.out.println();
+sc.close();
 }
 }
