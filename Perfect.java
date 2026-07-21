@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class Perfect  {
    public static void main(String[] args) {
-   Scanner sc = new Scanner(System.in);
+  try (Scanner sc = new Scanner(System.in)) {
    System.out.println("enter the num");
    int num = sc.nextInt();
    int sum=0;
@@ -19,7 +19,7 @@ public class Perfect  {
    else {
     System.out.println("not");
    }
-
+  }
       }
      
 }

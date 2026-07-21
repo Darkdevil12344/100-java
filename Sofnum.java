@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Sofnum {
    public static void main(String[] args) {
-   Scanner sc = new Scanner(System.in);
+   try (Scanner sc = new Scanner(System.in)) {
    System.out.println("enter the num");
    int num = sc.nextInt();
 int sum=0;
@@ -10,7 +10,7 @@ int sum=0;
 
    }
    System.out.println("sum is " + sum);
-   sc.close();
+}
 }
 
          }

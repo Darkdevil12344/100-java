@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Starpattern3 {
    public static void main(String[] args) {
-   Scanner sc = new Scanner(System.in);
+   try (Scanner sc = new Scanner(System.in)) {
    System.out.println("enter the num for print line");
    int num = sc.nextInt();
    System.out.println("enter the num for print *");
@@ -15,7 +15,7 @@ public class Starpattern3 {
     }
     System.out.println();
     }
-    
+   }
       }
    }
 

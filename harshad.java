@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class harshad {
     public static void main(String[] args) {
-   Scanner sc = new Scanner(System.in);
+   try (Scanner sc = new Scanner(System.in)) {
    System.out.println("enter the num");
    int num = sc.nextInt();
    int alt=num;
@@ -18,6 +18,6 @@ public class harshad {
     else {
         System.out.println("it is not harshad"); 
     }
- sc.close();
 }
+    }
 }

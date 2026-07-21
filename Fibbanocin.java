@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Fibbanocin {
    public static void main(String[] args) {
-   Scanner sc = new Scanner(System.in);
+   try (Scanner sc = new Scanner(System.in)) {
    System.out.println("enter the num");
    int num = sc.nextInt();
    int x=0;
@@ -16,6 +16,7 @@ public class Fibbanocin {
     }
     System.out.println(z);
       }
+   }
     
    }
 
